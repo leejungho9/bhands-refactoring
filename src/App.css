@@ -1,38 +1,27 @@
-.App {
-  text-align: center;
+
+@font-face {
+  font-family: "윤고딕320";
+  src: url("./fonts/윤고딕320.ttf");
+}
+@font-face {
+  font-family: "윤고딕340";
+  src: url("./fonts/윤고딕340.ttf");
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: "윤고딕딕320";
+  src: url("./fonts/윤고딕딕320.ttf");
+  unicode-range: U+AC00-D7A3;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@font-face {
+  font-family: "윤고딕360";
+  src: url("./fonts/윤고딕360.ttf");
+  font-weight: 400;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@font-face {
+  font-family: "Helvetica";
+  src: url("./fonts/Helvetica.ttf");
+  unicode-range: U+0041-005A, U+0061-007A;
 }

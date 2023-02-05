@@ -11,14 +11,7 @@ function App() {
   return (
     <>
       <Header />
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Main/>} />
-          <Route path="/about" element={<About/>} />
-          <Route path="/portfolio" element={<Portfolio/>} />
-          <Route path="/contatc" element={<Contact/>} />
-        </Routes>
-      </BrowserRouter>
+      <Main/>
       <Footer />
     </>
   );
